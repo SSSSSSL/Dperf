@@ -1,0 +1,7 @@
+struct PerfMessage
+{
+    unsigned long long seq;
+    unsigned long long send_time_ns;
+    
+    sequence<octet> payload;
+};
